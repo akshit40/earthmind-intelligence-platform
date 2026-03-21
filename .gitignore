@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Next.js
+.next/
+out/
+
+# Build outputs
+build/
+dist/
+
+# Agent & Dev artifacts
+.agents/
+.gemini/
+src_backup_v1/
+*.log
+lint-output*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.sqlite
+*.db
+!backend/data/seeds/*.sqlite # Keep seed data if any
