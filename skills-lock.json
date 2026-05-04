@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "skills": {
+    "computer-vision-opencv": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "computer-vision-opencv/SKILL.md",
+      "computedHash": "18c248ee75adf4ebffb009c3d98b374629d6c7b9abafd31ab5f01e3c5d812981"
+    },
+    "fastapi-templates": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/api-scaffolding/skills/fastapi-templates/SKILL.md",
+      "computedHash": "1a5fe66bd2683afd1db9afdf37a25cd8b9195c369c98489333badf0406fc91b3"
+    },
+    "grepai-ollama-setup": {
+      "source": "yoanbernabeu/grepai-skills",
+      "sourceType": "github",
+      "skillPath": "skills/getting-started/grepai-ollama-setup/SKILL.md",
+      "computedHash": "9d180c6fc4896cf22b9569435c644415ee2b499be7fa611675d32a4ef4bf8ee0"
+    },
+    "kpi-dashboard-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
+      "computedHash": "450bc47e5845632aa4363da7d45a823815c42a510c8c122b27894a920cda2e61"
+    },
+    "mapbox-geospatial-operations": {
+      "source": "mapbox/mapbox-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/mapbox-geospatial-operations/SKILL.md",
+      "computedHash": "533b45ccdb8539678bb6d523f2324f1aed284d20089d1defe5885294f3eb1b0f"
+    },
+    "nextjs-app-router-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/frontend-mobile-development/skills/nextjs-app-router-patterns/SKILL.md",
+      "computedHash": "04c1df896cc2c9ef824d618b95d21686c5b8e24e5cb32b3d6fe9d97d4b661536"
+    },
+    "tailwind-v4-shadcn": {
+      "source": "secondsky/claude-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/tailwind-v4-shadcn/skills/tailwind-v4-shadcn/SKILL.md",
+      "computedHash": "cf83bc010cc7afe91ad4b61adad527b69b433804a2c2a3ec3869605d8596b216"
+    }
+  }
+}
