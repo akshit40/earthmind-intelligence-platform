@@ -23,7 +23,18 @@
 </p>
 
 <p align="center">
-  <img src="frontend/public/assets/stats.png" alt="EarthMind Key Stats" width="720" />
+  <table>
+    <tr>
+      <td><img src="frontend/public/assets/stat_detection.png" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_latency.png" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_layers.png" width="230" /></td>
+    </tr>
+    <tr>
+      <td><img src="frontend/public/assets/stat_api.png" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_scanning.png" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_offline.png" width="230" /></td>
+    </tr>
+  </table>
 </p>
 
 <p align="center">
@@ -46,50 +57,16 @@
 
 EarthMind works with any satellite data stream that speaks STAC, WSS, or REST. All intelligence shares the same neural core.
 
-<table>
-<tr>
-<td align="center" width="12.5%">
-<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/04/sentinel-2/14352726-1-eng-GB/Sentinel-2_card_full.png" alt="Sentinel-2" width="48" height="48" /><br/>
-<strong>Sentinel-2</strong><br/>
-<sub>MSI + SAR</sub>
-</td>
-<td align="center" width="12.5%">
-<img src="https://landsat.gsfc.nasa.gov/wp-content/uploads/2016/01/Landsat-8-Logo.png" alt="Landsat" width="48" height="48" /><br/>
-<strong>Landsat-9</strong><br/>
-<sub>Thermal + NIR</sub>
-</td>
-<td align="center" width="12.5%">
-<img src="https://www.planet.com/assets/images/logo-planet-black.svg" alt="Planet" width="48" height="48" /><br/>
-<strong>Planet</strong><br/>
-<sub>Daily Revisit</sub>
-</td>
-<td align="center" width="12.5%">
-<img src="https://www.airbus.com/content/dam/corporate-topics/brand/Airbus-Logo.svg" alt="Airbus" width="48" height="48" /><br/>
-<strong>Airbus Neo</strong><br/>
-<sub>High Precision</sub>
-</td>
-<td align="center" width="12.5%">
-<img src="https://www.maxar.com/assets/images/maxar-logo.svg" alt="Maxar" width="48" height="48" /><br/>
-<strong>Maxar Vivid</strong><br/>
-<sub>VHR Optical</sub>
-</td>
-<td align="center" width="12.5%">
-<img src="https://www.capellaspace.com/wp-content/themes/capella/assets/images/logo.svg" alt="Capella" width="48" height="48" /><br/>
-<strong>Capella</strong><br/>
-<sub>All-Weather SAR</sub>
-</td>
-<td align="center" width="12.5%">
-<img src="https://www.iceye.com/hubfs/iceye-logo.svg" alt="ICEYE" width="48" height="48" /><br/>
-<strong>ICEYE</strong><br/>
-<sub>SAR Micro-Sat</sub>
-</td>
-<td align="center" width="12.5%">
-<img src="https://img.shields.io/badge/12-Connectors-3b82f6?style=flat-square" alt="Any Source" width="48" /><br/>
-<strong>Custom</strong><br/>
-<sub>REST API</sub>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/Sentinel--2-MSI%20%2B%20SAR-success?style=for-the-badge&labelColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Landsat--9-Thermal%20%2B%20NIR-orange?style=for-the-badge&labelColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Planet-Daily%20Revisit-blue?style=for-the-badge&labelColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Airbus%20Neo-High%20Precision-white?style=for-the-badge&labelColor=1a1a1a" /><br/>
+  <img src="https://img.shields.io/badge/Maxar%20Vivid-VHR%20Optical-gray?style=for-the-badge&labelColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Capella-All--Weather%20SAR-purple?style=for-the-badge&labelColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/ICEYE-SAR%20Micro--Sat-teal?style=for-the-badge&labelColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/Custom-REST%20API-lightgray?style=for-the-badge&labelColor=1a1a1a" />
+</p>
 
 <p align="center">
   <sub>Works with <strong>any</strong> source that speaks STAC or HTTP. One server, intelligence shared across all views.</sub>
@@ -198,7 +175,7 @@ python main.py --start-command-center
 
 <h2 id="quick-start">Quick Start</h2>
 
-### Launch the Intelligence Core
+### Launch the Platform
 
 ```bash
 # Terminal 1: start the neural engine
