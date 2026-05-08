@@ -40,7 +40,7 @@
 </p>
 
 <p align="center">
-  <img src="frontend/public/assets/dashboard_demo.png" alt="EarthMind Dashboard Demo" width="720" />
+  <img src="frontend/public/assets/dashboard_mockup.svg" alt="EarthMind Dashboard Mockup" width="720" />
 </p>
 
 ## Core Capabilities

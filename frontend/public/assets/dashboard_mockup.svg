@@ -1,0 +1,44 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0A0A0A"/>
+  
+  <!-- Sidebar Panel Left -->
+  <rect x="0" y="0" width="200" height="500" fill="#111111"/>
+  <rect x="10" y="20" width="180" height="40" rx="4" fill="#1A1A1A" stroke="#333"/>
+  <text x="25" y="45" fill="#00F0FF" font-family="Inter, sans-serif" font-size="14" font-weight="800">EARTHMIND</text>
+  
+  <rect x="10" y="80" width="180" height="120" rx="4" fill="#1A1A1A" stroke="#333"/>
+  <text x="20" y="100" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="600" opacity="0.6">DETECTION LOG</text>
+  <path d="M20 120H180M20 140H180M20 160H180" stroke="#333" stroke-width="1"/>
+  <rect x="150" y="112" width="20" height="8" rx="2" fill="#00F0FF" opacity="0.3"/>
+  <rect x="150" y="132" width="20" height="8" rx="2" fill="#7000FF" opacity="0.3"/>
+  
+  <rect x="10" y="210" width="180" height="120" rx="4" fill="#1A1A1A" stroke="#333"/>
+  <text x="20" y="230" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="600" opacity="0.6">SIGNAL STRENGTH</text>
+  <path d="M30 310L50 280L70 295L90 260L110 270L130 240L170 250" stroke="#7000FF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Map Area -->
+  <rect x="210" y="60" width="580" height="430" rx="8" fill="#151515" stroke="#333"/>
+  <!-- Stylized Map Shapes -->
+  <path d="M300 150Q350 100 450 150T600 200T700 150" stroke="#00F0FF" stroke-width="1" opacity="0.1"/>
+  <circle cx="450" cy="250" r="100" fill="#00F0FF" opacity="0.05"/>
+  
+  <!-- Bounding Boxes -->
+  <rect x="350" y="200" width="60" height="40" stroke="#00F0FF" stroke-width="2" stroke-dasharray="4 2"/>
+  <text x="350" y="195" fill="#00F0FF" font-family="Inter, sans-serif" font-size="8" font-weight="800">TARGET_01 [98%]</text>
+  
+  <rect x="520" y="300" width="80" height="50" stroke="#7000FF" stroke-width="2" stroke-dasharray="4 2"/>
+  <text x="520" y="295" fill="#7000FF" font-family="Inter, sans-serif" font-size="8" font-weight="800">ANOMALY_04 [82%]</text>
+  
+  <!-- Top Bar -->
+  <rect x="210" y="10" width="580" height="40" rx="4" fill="#111111" stroke="#333"/>
+  <text x="230" y="35" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="600">SECTOR: PACIFIC_A1 // STATUS: OPERATIONAL</text>
+  <circle cx="760" cy="30" r="4" fill="#00F0FF">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Scan Line Effect -->
+  <rect x="210" y="60" width="580" height="2" fill="#00F0FF" opacity="0.2">
+    <animate attributeName="y" values="60;490;60" dur="4s" repeatCount="indefinite" />
+  </rect>
+</svg>
