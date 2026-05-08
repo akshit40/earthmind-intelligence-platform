@@ -9,6 +9,8 @@ import random
 import json
 
 from database import init_db, get_anomalies as db_get_anomalies, save_anomalies, get_latest_ai_report as db_get_latest_ai_report, save_ai_report, create_scan, get_scan_history
+import argparse
+import uvicorn
 
 
 # Connection manager for broadcasting updates (defined early so background tasks can use it)
@@ -294,3 +296,21 @@ async def websocket_endpoint(websocket: WebSocket):
         print(f"WebSocket error: {e}")
     finally:
         manager.disconnect(websocket)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="EarthMind Intelligence Engine")
+    parser.add_argument("--start-command-center", action="store_true", help="Initialize in Command Center mode")
+    parser.add_argument("--host", default="0.0.0.0", help="Host address")
+    parser.add_argument("--port", type=int, default=8000, help="Port number")
+    
+    args = parser.parse_args()
+    
+    if args.start_command_center:
+        print("\n" + "="*50)
+        print("EARTHMIND COMMAND CENTER INITIALIZED")
+        print("Status: Strategic Roadmap Phase 5 Active")
+        print("Neural Core: READY")
+        print("="*50 + "\n")
+    
+    uvicorn.run(app, host=args.host, port=args.port)
