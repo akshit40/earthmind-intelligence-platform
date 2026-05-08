@@ -44,6 +44,35 @@
   <img src="frontend/public/assets/dashboard_demo.png" alt="EarthMind Dashboard Demo" width="720" />
 </p>
 
+## Core Capabilities
+
+<table width="100%">
+  <tr>
+    <td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px;">
+      <img src="frontend/public/assets/icon_detection.svg" width="40" /><br/>
+      <strong>Neural Object Detection</strong><br/>
+      Real-time identification of maritime vessels, aircraft, and structural anomalies using optimized ResNet-50.
+    </td>
+    <td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px;">
+      <img src="frontend/public/assets/icon_spectral.svg" width="40" /><br/>
+      <strong>Multi-Spectral Fusion</strong><br/>
+      Seamless alignment of Optical, Thermal, and SAR data streams for all-weather intelligence.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px;">
+      <img src="frontend/public/assets/icon_offline.svg" width="40" /><br/>
+      <strong>Isolated Intelligence</strong><br/>
+      Zero external dependencies for core inference. Works in air-gapped environments with local DB persistence.
+    </td>
+    <td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px;">
+      <img src="frontend/public/assets/icon_ui.svg" width="40" /><br/>
+      <strong>Tactical Glassmorphism</strong><br/>
+      A high-performance React dashboard designed for low-light command center environments.
+    </td>
+  </tr>
+</table>
+
 <p align="center">
   <a href="#quick-start">Quick Start</a> &bull;
   <a href="#benchmarks">Benchmarks</a> &bull;
@@ -53,6 +82,7 @@
   <a href="#architecture">Architecture</a> &bull;
   <a href="#api">API</a>
 </p>
+
 
 ---
 
@@ -194,6 +224,34 @@ Open `http://localhost:3000` to watch the intelligence feed build live in the **
 ---
 
 <h2 id="architecture">How It Works</h2>
+
+```mermaid
+graph TD
+    subgraph "ORBITAL ASSETS"
+        S1[Sentinel-2 Optical]
+        S2[Capella SAR]
+        S3[Landsat-9 Thermal]
+    end
+
+    subgraph "EARTHMIND NEURAL ENGINE"
+        DP[Data Pipeline]
+        NC[Neural Core / ResNet-50]
+        LP[Local Persistence / SQLite]
+        NC --> LP
+    end
+
+    subgraph "COMMAND CENTER"
+        DB[Tactical Dashboard]
+        AL[Anomaly Alerts]
+    end
+
+    S1 --> DP
+    S2 --> DP
+    S3 --> DP
+    DP --> NC
+    NC --> DB
+    NC --> AL
+```
 
 ### Intelligence Pipeline
 
