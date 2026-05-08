@@ -216,15 +216,16 @@ python main.py --start-command-center
 
 <h2 id="quick-start">Quick Start</h2>
 
-```bash
-# Terminal 1: start the neural engine
-cd backend
-python main.py --start-command-center
+<p align="center">
+  <img src="frontend/public/assets/terminal_quickstart.svg" alt="Quick Start Terminal" width="600" />
+</p>
 
-# Terminal 2: start the tactical dashboard
-cd frontend
-npm install
-npm run dev
+```bash
+# Terminal 1: Initialize the Neural Engine
+cd backend && python main.py --start-command-center
+
+# Terminal 2: Launch the Tactical Dashboard
+cd frontend && npm install && npm run dev
 ```
 
 Open `http://localhost:3000` to watch the intelligence feed build live in the **Command Center**.

@@ -1,0 +1,29 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Window Frame -->
+  <rect width="600" height="300" rx="8" fill="#0D0D0D"/>
+  <rect x="0.5" y="0.5" width="599" height="299" rx="7.5" stroke="#333333"/>
+  
+  <!-- Title Bar -->
+  <path d="M0 8C0 3.58172 3.58172 0 8 0H592C596.418 0 600 3.58172 600 8V30H0V8Z" fill="#1A1A1A"/>
+  <circle cx="15" cy="15" r="4" fill="#FF5F56"/>
+  <circle cx="30" cy="15" r="4" fill="#FFBD2E"/>
+  <circle cx="45" cy="15" r="4" fill="#27C93F"/>
+  <text x="300" y="20" fill="white" font-family="monospace" font-size="10" text-anchor="middle" opacity="0.5">earthmind-cli // mission-init</text>
+  
+  <!-- Content -->
+  <text x="20" y="60" fill="#00F0FF" font-family="monospace" font-size="14" font-weight="bold">></text>
+  <text x="40" y="60" fill="white" font-family="monospace" font-size="14">git clone https://github.com/akshit40/earthmind.git</text>
+  
+  <text x="20" y="100" fill="#00F0FF" font-family="monospace" font-size="14" font-weight="bold">></text>
+  <text x="40" y="100" fill="white" font-family="monospace" font-size="14">cd backend &amp;&amp; python main.py --start-command-center</text>
+  <text x="40" y="120" fill="#00F0FF" font-family="monospace" font-size="12" opacity="0.6">[INFO] Neural Core Initialized... Phase 5 Active</text>
+  
+  <text x="20" y="160" fill="#00F0FF" font-family="monospace" font-size="14" font-weight="bold">></text>
+  <text x="40" y="160" fill="white" font-family="monospace" font-size="14">cd frontend &amp;&amp; npm install &amp;&amp; npm run dev</text>
+  <text x="40" y="180" fill="#7000FF" font-family="monospace" font-size="12" opacity="0.6">[INFO] Dashboard live at http://localhost:3000</text>
+  
+  <!-- Cursor -->
+  <rect x="20" y="210" width="10" height="20" fill="#00F0FF">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </rect>
+</svg>
