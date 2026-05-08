@@ -1,0 +1,16 @@
+<svg width="230" height="100" viewBox="0 0 230 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="230" height="100" rx="8" fill="#1A1A1A"/>
+  <rect x="0.5" y="0.5" width="229" height="99" rx="7.5" stroke="#333333"/>
+  
+  <!-- Icon: Stacked Layers -->
+  <path d="M40 35L60 45L40 55L20 45L40 35Z" stroke="#00F0FF" stroke-width="1.5"/>
+  <path d="M20 55L40 65L60 55" stroke="#00F0FF" stroke-width="1.5" opacity="0.6"/>
+  <path d="M20 65L40 75L60 65" stroke="#00F0FF" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Text -->
+  <text x="75" y="45" fill="white" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" opacity="0.6">FUSION LAYERS</text>
+  <text x="75" y="70" fill="#00F0FF" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="800">12+ ACT</text>
+  
+  <!-- Checkmark -->
+  <path d="M190 50L195 55L205 45" stroke="#00F0FF" stroke-width="2" stroke-linecap="round"/>
+</svg>

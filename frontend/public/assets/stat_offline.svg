@@ -1,0 +1,11 @@
+<svg width="230" height="100" viewBox="0 0 230 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="230" height="100" rx="8" fill="#1A1A1A"/>
+  <rect x="0.5" y="0.5" width="229" height="99" rx="7.5" stroke="#333333"/>
+  
+  <!-- Icon: Shield/Offline Lock -->
+  <path d="M40 32C34 32 30 36 30 42V45H25V68H55V45H50V42C50 36 46 32 40 32ZM35 42C35 39 37 37 40 37C43 37 45 39 45 42V45H35V42Z" fill="#7000FF" opacity="0.6"/>
+  
+  <!-- Text -->
+  <text x="75" y="45" fill="white" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" opacity="0.6">OFFLINE MODE</text>
+  <text x="75" y="70" fill="#7000FF" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="800">ISOLATED</text>
+</svg>

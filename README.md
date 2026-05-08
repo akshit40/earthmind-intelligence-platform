@@ -1,6 +1,9 @@
 <p align="center">
-  <img src="frontend/public/assets/banner.png" alt="EarthMind — Elite Geospatial Intelligence" width="720" />
+  <img src="frontend/public/assets/logo.svg" alt="EarthMind Logo" width="180" />
 </p>
+
+<h1 align="center">EarthMind Intelligence Platform</h1>
+
 
 <p align="center">
   <strong>The world is complex. Your intelligence shouldn't be.</strong><br/>
@@ -25,20 +28,20 @@
 <p align="center">
   <table>
     <tr>
-      <td><img src="frontend/public/assets/stat_detection.png" width="230" /></td>
-      <td><img src="frontend/public/assets/stat_latency.png" width="230" /></td>
-      <td><img src="frontend/public/assets/stat_layers.png" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_detection.svg" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_latency.svg" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_layers.svg" width="230" /></td>
     </tr>
     <tr>
-      <td><img src="frontend/public/assets/stat_api.png" width="230" /></td>
-      <td><img src="frontend/public/assets/stat_scanning.png" width="230" /></td>
-      <td><img src="frontend/public/assets/stat_offline.png" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_api.svg" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_scanning.svg" width="230" /></td>
+      <td><img src="frontend/public/assets/stat_offline.svg" width="230" /></td>
     </tr>
   </table>
 </p>
 
 <p align="center">
-  <img src="frontend/public/earthmind_dashboard_verify_1778002966507.webp" alt="EarthMind Dashboard Demo" width="720" />
+  <img src="frontend/public/assets/dashboard_demo.png" alt="EarthMind Dashboard Demo" width="720" />
 </p>
 
 <p align="center">
@@ -53,7 +56,7 @@
 
 ---
 
-<h2 id="fusion"><img src="frontend/public/assets/header_sources.png" alt="Works with every source" height="32" /></h2>
+<h2 id="fusion"><img src="frontend/public/assets/header_sources.svg" alt="Works with every source" height="32" /></h2>
 
 EarthMind works with any satellite data stream that speaks STAC, WSS, or REST. All intelligence shares the same neural core.
 
@@ -175,14 +178,15 @@ python main.py --start-command-center
 
 <h2 id="quick-start">Quick Start</h2>
 
-### Launch the Platform
-
 ```bash
 # Terminal 1: start the neural engine
-cd backend && python main.py
+cd backend
+python main.py --start-command-center
 
 # Terminal 2: start the tactical dashboard
-cd frontend && npm run dev
+cd frontend
+npm install
+npm run dev
 ```
 
 Open `http://localhost:3000` to watch the intelligence feed build live in the **Command Center**.

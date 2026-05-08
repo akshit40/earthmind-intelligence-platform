@@ -1,0 +1,14 @@
+<svg width="230" height="100" viewBox="0 0 230 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="230" height="100" rx="8" fill="#1A1A1A"/>
+  <rect x="0.5" y="0.5" width="229" height="99" rx="7.5" stroke="#333333"/>
+  
+  <!-- Icon: Scanning Radar -->
+  <circle cx="40" cy="50" r="18" stroke="#00F0FF" stroke-width="1" opacity="0.3"/>
+  <path d="M40 32V50L55 60" stroke="#00F0FF" stroke-width="2" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="0 40 50" to="360 40 50" dur="3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Text -->
+  <text x="75" y="45" fill="white" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" opacity="0.6">ORBITAL SCAN</text>
+  <text x="75" y="70" fill="#00F0FF" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="800">ACTIVE</text>
+</svg>

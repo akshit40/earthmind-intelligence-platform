@@ -1,0 +1,17 @@
+<svg width="230" height="100" viewBox="0 0 230 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="230" height="100" rx="8" fill="#1A1A1A"/>
+  <rect x="0.5" y="0.5" width="229" height="99" rx="7.5" stroke="#333333"/>
+  
+  <!-- Icon: Terminal/Code -->
+  <path d="M25 40L35 50L25 60" stroke="#7000FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M45 60H60" stroke="#7000FF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Text -->
+  <text x="75" y="45" fill="white" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" opacity="0.6">NEURAL API</text>
+  <text x="75" y="70" fill="#7000FF" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="800">CONNECTED</text>
+  
+  <!-- Pulse Dot -->
+  <circle cx="205" cy="50" r="4" fill="#7000FF">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" />
+  </circle>
+</svg>

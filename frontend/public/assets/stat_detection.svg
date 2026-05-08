@@ -1,0 +1,16 @@
+<svg width="230" height="100" viewBox="0 0 230 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="230" height="100" rx="8" fill="#1A1A1A"/>
+  <rect x="0.5" y="0.5" width="229" height="99" rx="7.5" stroke="#333333"/>
+  
+  <!-- Icon: Crosshair -->
+  <circle cx="40" cy="50" r="20" stroke="#00F0FF" stroke-width="1.5" opacity="0.6"/>
+  <path d="M40 25V35M40 65V75M25 50H35M65 50H75" stroke="#00F0FF" stroke-width="2"/>
+  <circle cx="40" cy="50" r="2" fill="#00F0FF"/>
+  
+  <!-- Text -->
+  <text x="75" y="45" fill="white" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" opacity="0.6">DETECTION</text>
+  <text x="75" y="70" fill="#00F0FF" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="800">98.4%</text>
+  
+  <!-- Mini Chart Decor -->
+  <path d="M180 70L190 60L200 65L210 55" stroke="#00F0FF" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

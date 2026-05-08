@@ -1,0 +1,17 @@
+<svg width="230" height="100" viewBox="0 0 230 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="230" height="100" rx="8" fill="#1A1A1A"/>
+  <rect x="0.5" y="0.5" width="229" height="99" rx="7.5" stroke="#333333"/>
+  
+  <!-- Icon: Clock/Timer -->
+  <circle cx="40" cy="50" r="18" stroke="#7000FF" stroke-width="1.5" opacity="0.6"/>
+  <path d="M40 38V50L48 58" stroke="#7000FF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Text -->
+  <text x="75" y="45" fill="white" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" opacity="0.6">LATENCY</text>
+  <text x="75" y="70" fill="#7000FF" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="800">&lt;200ms</text>
+  
+  <!-- Mini Signal Decor -->
+  <rect x="180" y="65" width="4" height="8" fill="#7000FF" opacity="0.3"/>
+  <rect x="188" y="55" width="4" height="18" fill="#7000FF" opacity="0.6"/>
+  <rect x="196" y="45" width="4" height="28" fill="#7000FF"/>
+</svg>
